@@ -1,7 +1,7 @@
 import boto3
 from botocore.exceptions import ClientError
 
-# Initialize boto3 clients
+# Initialize boto3 clients 
 org_client = boto3.client('organizations')
 iam_client = boto3.client('iam')
 
